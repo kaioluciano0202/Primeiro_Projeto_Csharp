@@ -15,6 +15,7 @@ namespace PrimeiroProjetoC_
         public Form1()
         {
             InitializeComponent();
+            CentralizarPainel();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -37,6 +38,8 @@ namespace PrimeiroProjetoC_
             pnlEntrar.Left = (this.ClientSize.Width - pnlEntrar.Width) / 2;
             //Mexe no topo do painel
             pnlEntrar.Top = (this.ClientSize.Height - pnlEntrar.Height) / 2;
+
+            this.Resize += (s, e) => CentralizarPainel();
         }
     }
 }
