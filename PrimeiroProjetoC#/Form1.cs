@@ -12,6 +12,11 @@ namespace PrimeiroProjetoC_
 {
     public partial class Form1 : Form
     {
+        //Esse codigo cadastra um email no cadastro
+        private const string EmailCadastrado = "kaio@teste.com";
+        //Esse codigo cadastra uma senha no cadastro
+        private const string SenhaCadastrada = "1234";
+
         public Form1()
         {
             InitializeComponent();
@@ -40,6 +45,17 @@ namespace PrimeiroProjetoC_
             pnlEntrar.Top = (this.ClientSize.Height - pnlEntrar.Height) / 2;
 
             this.Resize += (s, e) => CentralizarPainel();
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            string senha = txtSenha.Text;
         }
     }
 }

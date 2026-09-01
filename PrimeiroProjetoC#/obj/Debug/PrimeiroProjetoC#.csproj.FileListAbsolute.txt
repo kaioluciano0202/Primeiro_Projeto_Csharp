@@ -9,3 +9,13 @@ C:\Users\DB\Documents\PrimeiroProjetoC#\PrimeiroProjetoC#\obj\Debug\PrimeiroProj
 C:\Users\DB\Documents\PrimeiroProjetoC#\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.exe
 C:\Users\DB\Documents\PrimeiroProjetoC#\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.pdb
 C:\Users\DB\Documents\PrimeiroProjetoC#\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.exe.config
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\bin\Debug\PrimeiroProjetoC#.exe.config
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\bin\Debug\PrimeiroProjetoC#.exe
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\bin\Debug\PrimeiroProjetoC#.pdb
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.csproj.AssemblyReference.cache
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC_.Form1.resources
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC_.Properties.Resources.resources
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.csproj.GenerateResource.cache
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.csproj.CoreCompileInputs.cache
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.exe
+C:\Users\DB\Documents\GitHub\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.pdb
