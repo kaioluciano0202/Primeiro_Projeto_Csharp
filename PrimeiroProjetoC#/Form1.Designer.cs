@@ -34,22 +34,24 @@
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.pnlEntrar = new System.Windows.Forms.Panel();
+            this.lnkCadastrar = new System.Windows.Forms.LinkLabel();
             this.pnlEntrar.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(264, 152);
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(247, 123);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(32, 13);
+            this.lblEmail.Size = new System.Drawing.Size(57, 24);
             this.lblEmail.TabIndex = 0;
             this.lblEmail.Text = "Email";
             this.lblEmail.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(91, 168);
+            this.txtEmail.Location = new System.Drawing.Point(91, 150);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(376, 20);
             this.txtEmail.TabIndex = 1;
@@ -59,15 +61,16 @@
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(264, 230);
+            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenha.Location = new System.Drawing.Point(247, 192);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(38, 13);
+            this.lblSenha.Size = new System.Drawing.Size(65, 24);
             this.lblSenha.TabIndex = 2;
             this.lblSenha.Text = "Senha";
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(91, 246);
+            this.txtSenha.Location = new System.Drawing.Point(91, 219);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(376, 20);
             this.txtSenha.TabIndex = 3;
@@ -76,9 +79,11 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(222, 311);
+            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnEntrar.Location = new System.Drawing.Point(208, 274);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(112, 23);
+            this.btnEntrar.Size = new System.Drawing.Size(150, 40);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -86,6 +91,7 @@
             // 
             // pnlEntrar
             // 
+            this.pnlEntrar.Controls.Add(this.lnkCadastrar);
             this.pnlEntrar.Controls.Add(this.lblEmail);
             this.pnlEntrar.Controls.Add(this.btnEntrar);
             this.pnlEntrar.Controls.Add(this.txtEmail);
@@ -96,6 +102,20 @@
             this.pnlEntrar.Size = new System.Drawing.Size(583, 408);
             this.pnlEntrar.TabIndex = 5;
             this.pnlEntrar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // lnkCadastrar
+            // 
+            this.lnkCadastrar.AutoSize = true;
+            this.lnkCadastrar.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lnkCadastrar.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lnkCadastrar.LinkColor = System.Drawing.Color.Blue;
+            this.lnkCadastrar.Location = new System.Drawing.Point(248, 358);
+            this.lnkCadastrar.Name = "lnkCadastrar";
+            this.lnkCadastrar.Size = new System.Drawing.Size(66, 13);
+            this.lnkCadastrar.TabIndex = 5;
+            this.lnkCadastrar.TabStop = true;
+            this.lnkCadastrar.Text = "Cadastrar-se";
+            this.lnkCadastrar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCadastrar_LinkClicked);
             // 
             // Form1
             // 
@@ -120,6 +140,7 @@
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Panel pnlEntrar;
+        private System.Windows.Forms.LinkLabel lnkCadastrar;
     }
 }
 
