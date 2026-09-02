@@ -75,6 +75,7 @@ namespace PrimeiroProjetoC_
                     "Bem-vindo",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
+                this.Hide();
             }
             else
             {
