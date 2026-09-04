@@ -33,10 +33,10 @@ namespace PrimeiroProjetoC_
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.pnlCadastro = new System.Windows.Forms.Panel();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.pnlCadastro.SuspendLayout();
             this.SuspendLayout();
@@ -90,27 +90,6 @@ namespace PrimeiroProjetoC_
             this.pnlCadastro.TabIndex = 3;
             this.pnlCadastro.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // txtNome
-            // 
-            this.txtNome.Location = new System.Drawing.Point(112, 56);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(401, 20);
-            this.txtNome.TabIndex = 3;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(112, 130);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(401, 20);
-            this.txtEmail.TabIndex = 4;
-            // 
-            // txtSenha
-            // 
-            this.txtSenha.Location = new System.Drawing.Point(112, 211);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(401, 20);
-            this.txtSenha.TabIndex = 5;
-            // 
             // btnCadastrar
             // 
             this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,6 +100,28 @@ namespace PrimeiroProjetoC_
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Location = new System.Drawing.Point(112, 211);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(401, 20);
+            this.txtSenha.TabIndex = 5;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(112, 130);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(401, 20);
+            this.txtEmail.TabIndex = 4;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(112, 56);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(401, 20);
+            this.txtNome.TabIndex = 3;
             // 
             // maskedTextBox1
             // 
@@ -138,6 +139,7 @@ namespace PrimeiroProjetoC_
             this.Controls.Add(this.pnlCadastro);
             this.Name = "frmCadastro";
             this.Text = "frmCadastro";
+            this.Load += new System.EventHandler(this.frmCadastro_Load);
             this.pnlCadastro.ResumeLayout(false);
             this.pnlCadastro.PerformLayout();
             this.ResumeLayout(false);

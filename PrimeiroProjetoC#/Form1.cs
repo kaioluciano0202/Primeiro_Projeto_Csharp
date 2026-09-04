@@ -12,10 +12,9 @@ namespace PrimeiroProjetoC_
 {
     public partial class Form1 : Form
     {
-        //Esse codigo cadastra um email no cadastro
-        private const string EmailCadastrado = "kaio@teste.com";
-        //Esse codigo cadastra uma senha no cadastro
-        private const string SenhaCadastrada = "1234";
+        public static string NomeCadastro = "";
+        public static string EmailCadastrado = "";
+        public static string SenhaCadastrada = "";
 
         public Form1()
         {

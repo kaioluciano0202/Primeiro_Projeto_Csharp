@@ -26,5 +26,37 @@ namespace PrimeiroProjetoC_
         {
 
         }
+
+        private void frmCadastro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string nome = txtNome.Text.Trim();
+            string email = txtEmail.Text.Trim();
+            string senha = txtSenha.Text;
+
+            if (nome == "" || email == "" || senha == "")
+            {
+                MessageBox.Show(
+                    "Preencha todos os campos.",
+                    "Atenção",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            Form1.NomeCadastro = nome;
+            Form1.EmailCadastrado = email.ToLower();
+            Form1.SenhaCadastrada = senha;
+
+            MessageBox.Show(
+                    "Cadastro realizado!",
+                    "Suceeso",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+        }
     }
 }
