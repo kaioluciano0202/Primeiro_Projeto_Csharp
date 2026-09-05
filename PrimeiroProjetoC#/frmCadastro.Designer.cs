@@ -37,18 +37,17 @@ namespace PrimeiroProjetoC_
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.pnlCadastro.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lblNome.Location = new System.Drawing.Point(44, 56);
+            this.lblNome.Location = new System.Drawing.Point(61, 57);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(62, 24);
+            this.lblNome.Size = new System.Drawing.Size(45, 17);
             this.lblNome.TabIndex = 0;
             this.lblNome.Text = "Nome";
             this.lblNome.Click += new System.EventHandler(this.label1_Click);
@@ -56,22 +55,22 @@ namespace PrimeiroProjetoC_
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lblEmail.Location = new System.Drawing.Point(44, 130);
+            this.lblEmail.Location = new System.Drawing.Point(61, 130);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(57, 24);
+            this.lblEmail.Size = new System.Drawing.Size(42, 17);
             this.lblEmail.TabIndex = 1;
             this.lblEmail.Text = "Email";
             // 
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSenha.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lblSenha.Location = new System.Drawing.Point(44, 207);
+            this.lblSenha.Location = new System.Drawing.Point(61, 212);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(65, 24);
+            this.lblSenha.Size = new System.Drawing.Size(49, 17);
             this.lblSenha.TabIndex = 2;
             this.lblSenha.Text = "Senha";
             // 
@@ -108,6 +107,7 @@ namespace PrimeiroProjetoC_
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(401, 20);
             this.txtSenha.TabIndex = 5;
+            this.txtSenha.UseSystemPasswordChar = true;
             // 
             // txtEmail
             // 
@@ -123,19 +123,11 @@ namespace PrimeiroProjetoC_
             this.txtNome.Size = new System.Drawing.Size(401, 20);
             this.txtNome.TabIndex = 3;
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(695, 450);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 4;
-            // 
             // frmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.maskedTextBox1);
+            this.ClientSize = new System.Drawing.Size(788, 476);
             this.Controls.Add(this.pnlCadastro);
             this.Name = "frmCadastro";
             this.Text = "frmCadastro";
@@ -143,7 +135,6 @@ namespace PrimeiroProjetoC_
             this.pnlCadastro.ResumeLayout(false);
             this.pnlCadastro.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -157,6 +148,5 @@ namespace PrimeiroProjetoC_
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }

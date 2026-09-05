@@ -69,11 +69,11 @@ namespace PrimeiroProjetoC_
             if (email.ToLower() == EmailCadastrado
                 && senha == SenhaCadastrada)
             {
-                MessageBox.Show(
-                    "Login Realizado com sucesso!",
-                    "Bem-vindo",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                frmPrincipal principal = new frmPrincipal();
+
+                principal.DefinirBoasVindas(NomeCadastro);
+
+                principal.Show();
                 this.Hide();
             }
             else

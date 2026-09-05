@@ -30,3 +30,4 @@ C:\Users\DB\Desktop\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\Primeiro
 C:\Users\DB\Desktop\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.exe
 C:\Users\DB\Desktop\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC#.pdb
 C:\Users\DB\Desktop\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC_.frmCadastro.resources
+C:\Users\DB\Desktop\Primeiro_Projeto_Csharp\PrimeiroProjetoC#\obj\Debug\PrimeiroProjetoC_.frmPrincipal.resources

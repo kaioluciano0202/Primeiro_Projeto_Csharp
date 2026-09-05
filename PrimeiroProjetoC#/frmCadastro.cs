@@ -15,6 +15,7 @@ namespace PrimeiroProjetoC_
         public frmCadastro()
         {
             InitializeComponent();
+            CentralizarPainel();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,6 +31,16 @@ namespace PrimeiroProjetoC_
         private void frmCadastro_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void CentralizarPainel()
+        {
+            //Mexe na parte esquerda do painel (o div 2 esta limitando nosso painel)
+            pnlCadastro.Left = (this.ClientSize.Width - pnlCadastro.Width) / 2;
+            //Mexe no topo do painel
+            pnlCadastro.Top = (this.ClientSize.Height - pnlCadastro.Height) / 2;
+
+            this.Resize += (s, e) => CentralizarPainel();
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
@@ -57,6 +68,8 @@ namespace PrimeiroProjetoC_
                     "Suceeso",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
+
+            this.Close();
         }
     }
 }
