@@ -12,10 +12,10 @@ namespace PrimeiroProjetoC_
 {
     public partial class frmPrincipal : Form
     {
+
         public frmPrincipal()
         {
             InitializeComponent();
-
         }
 
         public void DefinirBoasVindas(string nome)
@@ -27,6 +27,30 @@ namespace PrimeiroProjetoC_
         private void lblBoasVindas_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resposta =
+                MessageBox.Show(
+                "Deseja realmente sair?",
+                "Confirmacao",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+            if (resposta == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

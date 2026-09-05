@@ -50,6 +50,9 @@ namespace PrimeiroProjetoC_
             this.Controls.Add(this.lblBoasVindas);
             this.Name = "frmPrincipal";
             this.Text = "frmPrincipal";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPrincipal_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPrincipal_FormClosed);
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
